@@ -1,0 +1,15 @@
+mymodule.content:
+  path: "/mymodule"
+  defaults:
+    _controller: 'Drupal\mymodule\Controller\FirstController::content'
+    _title: "Welcome Page"
+  requirements:
+    _permission: "access content"
+
+mymodule.content2:
+  path: "/sishir2"
+  defaults:
+    _controller: 'Drupal\mymodule\Controller\FirstController::myresultrandom'
+    _title: "Contact Page"
+  requirements:
+    _permission: "access content"

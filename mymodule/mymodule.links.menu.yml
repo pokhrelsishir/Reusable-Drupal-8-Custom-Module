@@ -1,0 +1,13 @@
+mymodule.newpage:
+  title: "Welcome Page"
+  description: "Link to the page mymodule created"
+  route_name: mymodule.content
+  weight: 2
+  menu_name: main
+
+mymodule.newpage1:
+  title: "Contact Page"
+  description: "Link to the page mymodule created"
+  route_name: mymodule.content2
+  weight: 10
+  menu_name: main
